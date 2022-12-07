@@ -1,0 +1,117 @@
+
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "roboto";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(84, 70, 135);;
+}
+.navbar h1 {
+  color: rgb(84, 70, 135);
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: rgb(84, 70, 135);
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* quote previews / list */
+.quote-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.quote-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.quote-preview h2 {
+  font-size: 20px;
+  color:rgb(84, 70, 135);
+  margin-bottom: 8px;
+}
+.quote-preview a{
+  text-decoration: none;
+}
+
+/* quote details page */
+.quote-details h2 {
+  font-size: 20px;
+  color:rgb(84, 70, 135);
+  margin-bottom: 10px;
+}
+.quote-details div {
+  margin: 20px 0;
+}
+.quote-details button {
+  background: rgb(84, 70, 135);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new quote form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: rgb(84, 70, 135);
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(84, 70, 135);
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background:rgb(84, 70, 135);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.pagination  {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+ 
+ 
+  
+ 
+}
+.pagination li{
+  margin: 16px;
+  padding: 6px;
+  text-decoration: none;
+}
